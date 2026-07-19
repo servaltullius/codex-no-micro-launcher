@@ -1,0 +1,5 @@
+/release/
+*.log
+patch-manifest.json
+app.asar.original
+/runtimes/
