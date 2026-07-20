@@ -22,7 +22,7 @@ OpenAI가 Codex 내부 구조를 변경하면 기존 패치 문자열을 찾지 
 ## 다운로드 및 설치
 
 1. [최신 릴리스](https://github.com/servaltullius/codex-no-micro-launcher/releases/latest)에서
-   `Codex-No-Micro-v0.1.0.zip`을 내려받습니다.
+   `Codex-No-Micro-v0.1.1.zip`을 내려받습니다.
 2. ZIP 압축을 완전히 풉니다.
 3. 일반 Codex를 트레이 아이콘까지 완전히 종료합니다.
 4. `Install.cmd`를 실행합니다.
@@ -31,6 +31,9 @@ OpenAI가 Codex 내부 구조를 변경하면 기존 패치 문자열을 찾지 
 Windows에서 인터넷에서 받은 파일이라는 경고가 표시될 수 있습니다. 실행하기 전에
 `Codex-No-Micro.ps1` 내용을 직접 확인하고, 릴리스의 `SHA256SUMS.txt`와 파일 해시를
 비교할 수 있습니다.
+
+`Codex-No-Micro.ps1`은 Windows PowerShell 5.1이 CP949 기본 환경에서도 한국어
+문자열을 정확히 읽도록 UTF-8 BOM 형식으로 배포합니다.
 
 ## 작동 방식
 
