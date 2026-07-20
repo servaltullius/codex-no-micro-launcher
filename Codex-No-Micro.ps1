@@ -1,4 +1,4 @@
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param(
     [ValidateSet('Install', 'Prepare', 'Launch', 'Status', 'Uninstall')]
     [string]$Action = 'Launch'
